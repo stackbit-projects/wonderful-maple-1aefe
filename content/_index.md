@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
+    image: images/modern-technology-DRXK9Q7.jpg
     image_alt: App preview
     title: We Deliver “Digital”
     content: >-
