@@ -1,0 +1,23 @@
+{{ $section := .section }}
+<section id="{{ $section.section_id }}" class="block cta-block bg-accent outer">
+  <div class="inner-large">
+    <div class="grid">
+      <div class="cell block-content">
+        {{ if $section.title }}
+        <h2 class="block-title">{{ $section.title }}</h2>
+        {{ end }}
+        {{ if $section.subtitle }}
+        <p class="block-subtitle">
+          {{ $section.subtitle | safeHTML }}
+        </p>
+        {{ end }}
+      </div><!-- .block-content -->
+      {{ if $section.actions }}
+      <p class="cell block-buttons">
+        {{ $include_dict := dict "actions" $section.actions }}
+        {{ partial "cta_buttons.html" $include_dict }}
+      </p>
+      {{ end }}
+    </div><!-- .grid -->
+  </div><!-- .inner -->
+</section><!-- .hero -->
