@@ -11,7 +11,7 @@ sections:
       Transformation Journey with high accountability & growth transparency by
       enabling right Measurements & Business Intelligence. 
     actions:
-      - label: Learn More
+      - label: Know More
         url: /features
         primary: true
   - section_id: features
