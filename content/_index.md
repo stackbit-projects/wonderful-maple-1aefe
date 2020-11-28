@@ -7,8 +7,9 @@ sections:
     image_alt: App preview
     title: We Deliver “Digital”
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
+      We are the Next Generation of Digital Disrupters to lead the Digital
+      Transformation Journey with high accountability & growth transparency by
+      enabling right Measurements & Business Intelligence. 
     actions:
       - label: Learn More
         url: /features
